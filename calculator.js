@@ -266,9 +266,6 @@ function masteryTooltipBody(mastery, rank)  {
     desc = desc.replace(/#/, mastery.rankInfo[rank]);
     desc = desc.replace(/\n/g, "<br>");
     desc = desc.replace(/\|(.+?)\|/g, "<span class='highlight'>$1</span>");
-    if (mastery.perlevel) {
-        desc = desc.replace(/#/, Math.round(mastery.rankInfo[rank]*180)/10);
-    }
     if (mastery.rankInfo2) {
         desc = desc.replace(/#/, mastery.rankInfo2[rank]);
     }
