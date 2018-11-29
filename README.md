@@ -12,7 +12,7 @@ desired.
 Demo
 ----
 
-<https://patcolyn.github.io/league-4.20-mastery-calc/>
+<https://patcolyn.github.io/league-mastery-calc-4.20/>
 
 Contributors
 ------------
